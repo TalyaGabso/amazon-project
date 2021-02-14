@@ -1,0 +1,53 @@
+/* utility */
+:root{
+  /* Background */
+  --main-navbar-bg-color: rgb(19, 25, 33);
+  --sub-navbar-bg-color:rgb(35, 47, 62);
+  --search-btn-bg-color:rgb(254, 189, 103);
+  --light-gray-border-color: rgb(204, 204, 204);
+  /* text */
+  --text-primary-color:rgb(15, 17, 17);
+  --white-text-color:rgb(255, 255, 255);
+  --gray-text-color:rgb(86, 89, 89);
+  --links-color: rgb(0, 113, 133);
+  --links-hover-color:rgb(199, 81, 31);
+  --price-color:rgb(177,39,4);
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+body{
+  height: 3000px;
+  color: var(--text-primary-color);
+}
+header{
+  font-size: 14px;
+}
+main{
+  padding: 0 18px;
+}
+hr{
+  opacity: 0.2;
+  margin-bottom: 10px;
+}
+ul{
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
